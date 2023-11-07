@@ -44,7 +44,7 @@ Future<Movie> fetchMovie() async {
       headers: {
         HttpHeaders.contentTypeHeader: 'application/json',
         HttpHeaders.authorizationHeader:
-            'Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI4YTRhZGIyMDdhMDEzYzRjNzk0OTk2MTZkNDgxMzNhYSIsInN1YiI6IjY1NDVmNjBkZDhjYzRhMDBjNjVhNzJjZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.mCybsg9WHclRTGx5uNEd53jyAUaz5_HNDy95esWmh-g',
+            'Bearer ',
         HttpHeaders.acceptHeader: 'application/json'
       });
   if (response.statusCode == 200) {
